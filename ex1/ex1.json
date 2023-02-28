@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "fullName": "Corrina Camilli",
+            "salary": 83369
+        },
+        {
+            "id": 2,
+            "fullName": "Eberto Recke",
+            "salary": 37751
+        },
+        {
+            "id": 3,
+            "fullName": "Papageno Golden",
+            "salary": 54548
+        },
+        {
+            "id": 4,
+            "fullName": "Luca Amps",
+            "salary": 63566
+        },
+        {
+            "id": 5,
+            "fullName": "Derrik Learoyde",
+            "salary": 87011
+        },
+        {
+            "id": 6,
+            "fullName": "Lulu Sansome",
+            "salary": 49127
+        },
+        {
+            "id": 7,
+            "fullName": "Jewel Mariolle",
+            "salary": 75072
+        },
+        {
+            "id": 8,
+            "fullName": "Trumaine McFade",
+            "salary": 66436
+        },
+        {
+            "id": 9,
+            "fullName": "Jules Bowyer",
+            "salary": 52596
+        },
+        {
+            "id": 10,
+            "fullName": "Carney Fontelles",
+            "salary": 72175
+        }
+    ]
+}

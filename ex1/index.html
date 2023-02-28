@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <br>
+    <!--Le container pour les 3 btns-->
+   <div class="container">
+    <!--2 btn radio-->
+        <div class="justify-content-center">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radioChoix" id="radioAll">
+                <label class="form-check-label" for="flexRadioDefault1">
+                All
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="radioChoix" id="radioTop5">
+                <label class="form-check-label" for="flexRadioDefault2">
+                Top 5
+                </label>
+            </div>
+            <!--btn show-->
+            <button type="button" class="btn btn-secondary" id="btnShow">Show</button>
+        </div> 
+   </div>
+   <!--Le container pour le tableau-->
+   <br>
+   <div class="container">
+       <div class="col-4">
+       <table class="table table-hover" >
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody id="tableEmp">
+                <!--Les donnee du fichier json seront inserer ici-->
+            </tbody>
+        </table>
+        </div>
+   </div>
+   <script src="script.js"></script>
+   <script src="../bootstrap/bootstrap.min.js"></script>
+   <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
